@@ -1,5 +1,5 @@
 --*CRT: RUNSQLSTM COMMIT(*NONE) ERRLVL(30)                      :*
-
+create schema muledemos;
 set schema muledemos;
 
 drop view productpricev1;
