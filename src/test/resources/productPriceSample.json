@@ -1,0 +1,16 @@
+{
+	"productPrices": [
+	{
+		"productName": "TV",
+		"productID": 1,
+		"priceGroup": "REGULAR",
+		"productPrice": 100.00
+	},
+	{
+		"productName": "TV",
+		"productID": 1,
+		"priceGroup": "SALE",
+		"productPrice": 80.00
+	}]
+}
+	
