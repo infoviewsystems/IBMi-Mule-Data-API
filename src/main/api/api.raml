@@ -2,30 +2,22 @@
 title: Product Pricing
 version: 1.0      
 
-/products:
+/products/{productname}:
   get:
-    queryParameters:
-          productName:
-            displayName: Product Name
-            type: string
-            example: TV
-            required: true
     responses:
       200:
         body:
           text/json:
             example: |
              {
+              "productName": "TV",
+              "productID": 3,
               "productPrices": [{
-                  "productName": "TV",
-                  "productID": 3,
                   "priceGroup": "REGULAR",
-                   "productPrice": 500
+                   "productPrice": 500.00
                 }, {
-                   "productName": "TV",
-                   "productID": 3,
                    "priceGroup": "SALE",
-                   "productPrice": 450
+                   "productPrice": 450.00
                 }]
               }
               

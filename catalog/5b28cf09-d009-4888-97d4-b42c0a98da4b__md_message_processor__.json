@@ -1,0 +1,11 @@
+{
+    "inputMessageMetadata": {},
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "prodictPrices"
+        }
+    },
+    "id": "5b28cf09-d009-4888-97d4-b42c0a98da4b",
+    "version": "5.2.0.0"
+}
